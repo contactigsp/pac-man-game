@@ -6,6 +6,9 @@
 
 body {
   background-color: #000;
+   position: absolute;
+  left: 35%;
+  top: 15%;
 }
 
 h3 {
