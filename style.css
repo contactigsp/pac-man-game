@@ -1,0 +1,173 @@
+:root {
+  --primary-bg: #000;
+  --primary-wall: rgb(0, 0, 177);
+  --primary-dot: gold;
+}
+
+body {
+  background-color: #000;
+}
+
+h3 {
+  margin-left: 25%;
+  color: #fff;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 560px;
+  height: 560px;
+  background-color: var(--primary-bg);
+  margin-left: 25%;
+}
+
+.grid div {
+  width: 20px;
+  height: 20px;
+}
+
+.pac-dot {
+  background-color: var(--primary-dot);
+  border: 8px var(--primary-bg) solid;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+.wall {
+  background-color: var(--primary-wall);
+}
+
+.power-pellet {
+  background-color: var(--primary-dot);
+  border: 3px solid var(--primary-bg);
+  box-sizing: border-box;
+  border-radius: 50%;
+}
+
+/* Fill images inside div */
+
+.pacMan- {
+  background-image: url('/img/pac-man-left.png');
+    background-position: center;
+  background-size: cover;
+}
+.pacMan-left {
+  background-image: url('/img/pac-man-left.png');
+    background-position: center;
+  background-size: cover;
+}
+.pacMan-up {
+  background-image: url('/img/pac-man-up.png');
+    background-position: center;
+  background-size: cover;
+}
+.pacMan-right {
+  background-image: url('/img/pac-man-right.png');
+    background-position: center;
+  background-size: cover;
+}
+.pacMan-down {
+  background-image: url('/img/pac-man-down.png');
+    background-position: center;
+  background-size: cover;
+}
+
+
+
+
+
+
+
+.blinky-left {
+  background-image: url('img/blinky-left.png');
+    background-position: center;
+  background-size: cover;
+}
+.blinky-up {
+  background-image: url('img/blinky-up.png');
+    background-position: center;
+  background-size: cover;
+}
+.blinky-right {
+  background-image: url('img/blinky-right.png');
+    background-position: center;
+  background-size: cover;
+}
+.blinky-down {
+  background-image: url('img/blinky-down.png');
+    background-position: center;
+  background-size: cover;
+}
+.pinky-left {
+  background-image: url('img/pinky-left.png');
+    background-position: center;
+  background-size: cover;
+}
+.pinky-up {
+  background-image: url('img/pinky-up.png');
+    background-position: center;
+  background-size: cover;
+}
+.pinky-right {
+  background-image: url('img/pinky-right.png');
+    background-position: center;
+  background-size: cover;
+}
+.pinky-down {
+  background-image: url('img/pinky-down.png');
+    background-position: center;
+  background-size: cover;
+}
+.inky-left {
+  background-image: url('img/inky-left.png');
+    background-position: center;
+  background-size: cover;
+}
+.inky-up {
+  background-image: url('img/inky-up.png');
+    background-position: center;
+  background-size: cover;
+}
+.inky-right {
+  background-image: url('img/inky-right.png');
+    background-position: center;
+  background-size: cover;
+}
+.inky-down {
+  background-image: url('img/inky-down.png');
+    background-position: center;
+  background-size: cover;
+}
+.clyde-left {
+  background-image: url('img/clyde-left.png');
+    background-position: center;
+  background-size: cover;
+}
+.clyde-up {
+  background-image: url('img/clyde-up.png');
+    background-position: center;
+  background-size: cover;
+}
+.clyde-right {
+  background-image: url('img/clyde-right.png');
+    background-position: center;
+  background-size: cover;
+}
+.clyde-down {
+  background-image: url('img/clyde-down.png');
+    background-position: center;
+  background-size: cover;
+}
+
+
+
+
+
+
+
+.scared-ghost {
+  background-image: url('img/scared.png');
+    background-position: center;
+  background-size: cover;
+}
