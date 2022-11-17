@@ -1,5 +1,4 @@
-console.log("hello world !!");
-
+document.addEventListener("DOMContentLoaded", () => {
 const grid = document.querySelector(".grid");
 const scoreDisplay = document.getElementById("score");
 let score = 0;
@@ -380,3 +379,4 @@ function checkForWin() {
 }
 
 document.addEventListener("keyup", movePacMan);
+});
