@@ -6,9 +6,6 @@
 
 body {
   background-color: #000;
-   position: absolute;
-  left: 15%;
-  top: 15%;
 }
 
 h3 {
@@ -51,27 +48,27 @@ h3 {
 /* Fill images inside div */
 
 .pacMan- {
-  background-image: url('/img/pac-man-left.png');
+  background-image: url('./img/pac-man-left.png');
     background-position: center;
   background-size: cover;
 }
 .pacMan-left {
-  background-image: url('/img/pac-man-left.png');
+  background-image: url('./img/pac-man-left.png');
     background-position: center;
   background-size: cover;
 }
 .pacMan-up {
-  background-image: url('/img/pac-man-up.png');
+  background-image: url('./img/pac-man-up.png');
     background-position: center;
   background-size: cover;
 }
 .pacMan-right {
-  background-image: url('/img/pac-man-right.png');
+  background-image: url('./img/pac-man-right.png');
     background-position: center;
   background-size: cover;
 }
 .pacMan-down {
-  background-image: url('/img/pac-man-down.png');
+  background-image: url('./img/pac-man-down.png');
     background-position: center;
   background-size: cover;
 }
@@ -83,82 +80,82 @@ h3 {
 
 
 .blinky-left {
-  background-image: url('img/blinky-left.png');
+  background-image: url('./img/blinky-left.png');
     background-position: center;
   background-size: cover;
 }
 .blinky-up {
-  background-image: url('img/blinky-up.png');
+  background-image: url('./img/blinky-up.png');
     background-position: center;
   background-size: cover;
 }
 .blinky-right {
-  background-image: url('img/blinky-right.png');
+  background-image: url('./img/blinky-right.png');
     background-position: center;
   background-size: cover;
 }
 .blinky-down {
-  background-image: url('img/blinky-down.png');
+  background-image: url('./img/blinky-down.png');
     background-position: center;
   background-size: cover;
 }
 .pinky-left {
-  background-image: url('img/pinky-left.png');
+  background-image: url('./img/pinky-left.png');
     background-position: center;
   background-size: cover;
 }
 .pinky-up {
-  background-image: url('img/pinky-up.png');
+  background-image: url('./img/pinky-up.png');
     background-position: center;
   background-size: cover;
 }
 .pinky-right {
-  background-image: url('img/pinky-right.png');
+  background-image: url('./img/pinky-right.png');
     background-position: center;
   background-size: cover;
 }
 .pinky-down {
-  background-image: url('img/pinky-down.png');
+  background-image: url('./img/pinky-down.png');
     background-position: center;
   background-size: cover;
 }
 .inky-left {
-  background-image: url('img/inky-left.png');
+  background-image: url('./img/inky-left.png');
     background-position: center;
   background-size: cover;
 }
 .inky-up {
-  background-image: url('img/inky-up.png');
+  background-image: url('./img/inky-up.png');
     background-position: center;
   background-size: cover;
 }
 .inky-right {
-  background-image: url('img/inky-right.png');
+  background-image: url('./img/inky-right.png');
     background-position: center;
   background-size: cover;
 }
 .inky-down {
-  background-image: url('img/inky-down.png');
+  background-image: url('./img/inky-down.png');
     background-position: center;
   background-size: cover;
 }
 .clyde-left {
-  background-image: url('img/clyde-left.png');
+  background-image: url('./img/clyde-left.png');
     background-position: center;
   background-size: cover;
 }
 .clyde-up {
-  background-image: url('img/clyde-up.png');
+  background-image: url('./img/clyde-up.png');
     background-position: center;
   background-size: cover;
 }
 .clyde-right {
-  background-image: url('img/clyde-right.png');
+  background-image: url('./img/clyde-right.png');
     background-position: center;
   background-size: cover;
 }
 .clyde-down {
-  background-image: url('img/clyde-down.png');
+  background-image: url('./img/clyde-down.png');
     background-position: center;
   background-size: cover;
 }
@@ -170,7 +167,7 @@ h3 {
 
 
 .scared-ghost {
-  background-image: url('img/scared.png');
+  background-image: url('./img/scared.png');
     background-position: center;
   background-size: cover;
 }
