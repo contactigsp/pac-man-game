@@ -135,7 +135,7 @@ function drawPacMan(side) {
   const img = document.createElement("img");
 
   img.classList.add("pac-man-img");
-  img.setAttribute("src", `pac-man-game/img/pac-man-${side}.png`);
+  img.setAttribute("src", `/img/pac-man-${side}.png`);
 
   squares[pacManCurrentIndex].appendChild(img);
   squares[pacManCurrentIndex].classList.add("pac-man");
