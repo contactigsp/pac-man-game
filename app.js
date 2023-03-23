@@ -1,9 +1,9 @@
 // ========================== LOAD IMAGES ==========================
 let images = [
-  "/img/pac-man-down.png",
-  "/img/pac-man-left.png",
-  "/img/pac-man-right.png",
-  "/img/pac-man-up.png",
+  "/pac-man-game/img/pac-man-down.png",
+  "/pac-man-game/img/pac-man-left.png",
+  "/pac-man-game/img/pac-man-right.png",
+  "/pac-man-game/img/pac-man-up.png",
 ];
 
 // Loads the images one at a time, then calls the callback function when all images
@@ -135,7 +135,7 @@ function drawPacMan(side) {
   const img = document.createElement("img");
 
   img.classList.add("pac-man-img");
-  img.setAttribute("src", `/img/pac-man-${side}.png`);
+  img.setAttribute("src", `/pac-man-game/img/pac-man-${side}.png`);
 
   squares[pacManCurrentIndex].appendChild(img);
   squares[pacManCurrentIndex].classList.add("pac-man");
