@@ -1,9 +1,9 @@
 // ========================== LOAD IMAGES ==========================
 let images = [
-  "./img/pac-man-down.png",
-  "./img/pac-man-left.png",
-  "./img/pac-man-right.png",
-  "./img/pac-man-up.png",
+  "/img/pac-man-down.png",
+  "/img/pac-man-left.png",
+  "/img/pac-man-right.png",
+  "/img/pac-man-up.png",
 ];
 
 // Loads the images one at a time, then calls the callback function when all images
